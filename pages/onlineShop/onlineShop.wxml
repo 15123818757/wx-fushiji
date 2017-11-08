@@ -1,0 +1,57 @@
+<!--pages/onlineShop/onlineShop.wxml-->
+<!-- 头部图片 -->
+<image class="top" src="../img/img4.jpg"></image>
+<!-- banner -->
+<swiper class="banner" autoplay="true" indicator-dots="true">
+  <block>
+    <swiper-item>
+      <image src="../img/banner.jpg"></image>>
+    </swiper-item>
+     <swiper-item>
+      <image src="../img/banner.jpg"></image>>
+    </swiper-item>
+     <swiper-item>
+      <image src="../img/banner.jpg"></image>>
+    </swiper-item>
+  </block>
+</swiper>
+<!-- 导航 -->
+<view class="nav">
+  <view bindtap="goCart">
+    <image src="../img/icon3.png"></image>
+    <text>购物袋</text>
+  </view>
+  <view bindtap="goMyOrder">
+    <image src="../img/icon4.png"></image>
+    <text>订单查询</text>
+  </view>
+  <view bindtap="goJifen">
+    <image src="../img/icon6.png"></image>
+    <text>积分中心</text>
+  </view>
+  <view bindtap="goIndex">
+    <image src="../img/icon8.png"></image>
+    <text>会员中心</text>
+  </view>
+</view>
+<!-- 内容 -->
+<view class="content">
+  <view bindtap="goShop">
+    <image src="../img/onImg1.jpg"></image>
+  </view>
+  <view>
+    <image src="../img/onImg2.jpg"></image>
+  </view>
+  <view>
+    <image src="../img/onImg3.jpg"></image>
+  </view>
+  <view>
+    <image src="../img/onImg4.jpg"></image>
+  </view>
+   <view>
+    <image src="../img/onImg5.jpg"></image>
+  </view>
+   <view>
+    <image src="../img/onImg6.jpg"></image>
+  </view>
+</view>

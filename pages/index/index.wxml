@@ -1,0 +1,52 @@
+<!-- 头部图片 -->
+<image class="top" src="../img/img1.jpg"></image>
+<!-- banner -->
+<swiper class="banner" autoplay="true" indicator-dots="true">
+  <block>
+    <swiper-item>
+      <image src="../img/banner.jpg"></image>>
+    </swiper-item>
+     <swiper-item>
+      <image src="../img/banner.jpg"></image>>
+    </swiper-item>
+     <swiper-item>
+      <image src="../img/banner.jpg"></image>>
+    </swiper-item>
+  </block>
+</swiper>
+
+<!-- 会员申请 -->
+<!-- 九宫格 -->
+<view class="content">
+  <view bindtap="goOnlineShop">
+    <image src="../img/icon2.png"></image>
+    <text>在线商城</text>
+    <text>在线购买商品</text>
+  </view>
+  <view bindtap="goCart">
+    <image src="../img/icon3.png"></image>
+    <text>购物袋</text>
+    <text>好东西收起来</text>
+  </view>
+  <view bindtap="goMyOrder">
+    <image src="../img/icon4.png"></image>
+    <text>订单查询</text>
+    <text>查找您的订单</text>
+  </view>
+  <view bindtap="goGift">
+    <image src="../img/icon6.png"></image>
+    <text>积分中心</text>
+    <text>积分换好礼</text>
+  </view>
+  <view bindtap="goUser">
+    <image src="../img/icon8.png"></image>
+    <text>会员资料</text>
+    <text>修改资料赚积分</text>
+  </view>
+  <view>
+    <contact-button class="contact" size="27"></contact-button>
+    <image src="../img/icon9.png"></image>
+    <text>联系客服</text>
+    <text>有疑问找客服</text>
+  </view>
+</view>

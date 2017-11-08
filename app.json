@@ -1,0 +1,22 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/login/login",
+    "pages/onlineShop/onlineShop",
+    "pages/cart/cart",
+    "pages/jiesuan/jiesuan",
+    "pages/order/order",
+    "pages/myOrder/myOrder",
+    "pages/user/user",
+    "pages/clothes/clothes",
+    "pages/clo_chose/clo_chose",
+    "pages/clo_detail/clo_detail",
+    "pages/gift/gift"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000b43",
+    "navigationBarTitleText": "会员中心",
+    "navigationBarTextStyle":"white"
+  }
+}

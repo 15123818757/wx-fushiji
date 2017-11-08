@@ -1,0 +1,111 @@
+<!--pages/myOrder/myOrder.wxml-->
+<!-- 导航 -->
+<view class="nav">
+  <view bindtap="show_1">全部</view>
+  <view bindtap="show_2">未付款</view>
+  <view bindtap="show_3">配送中</view>
+  <view bindtap="show_4">已完成</view>
+  <view bindtap="show_5">待发货</view>
+  <view style="left:{{left}}"><text></text></view>  
+</view>
+
+<!-- 显示的内容 -->
+<view class="content">
+  <!-- 购买商品信息 -->
+  <view>
+    <view class="peisong" id="orderId">
+      <text>订单编号:200135226</text>
+      <text>等待支付</text>
+      <view></view>
+    </view>
+    <view class="goodsInfo">
+      <view>
+        <image src="../img/cartImg1.jpg"></image>
+        <view class="info">
+          <text>GatFit舒适背部挖剪适背部挖剪适背部挖剪适背部挖剪适背部挖剪直筒背心</text>
+        </view>
+      </view>
+      <view>
+        <text>共1件商品合计<text>￥318</text></text>
+        <text bindtap="goPay">继续支付</text>
+      </view>
+    </view>
+  </view>
+
+   <view>
+    <view class="peisong" id="orderId">
+      <text>订单编号:200135226</text>
+      <text>已取消</text>
+      <view></view>
+    </view>
+    <view class="goodsInfo">
+      <view>
+        <image src="../img/cartImg1.jpg"></image>
+        <view class="info">
+          <text>GatFit舒适背部挖剪适背部挖剪适背部挖剪适背部挖剪适背部挖剪直筒背心</text>
+        </view>
+      </view>
+      <view>
+        <text>共1件商品合计<text>￥318</text></text>
+      </view>
+    </view>
+  </view>
+
+  <view>
+    <view class="peisong" id="orderId">
+      <text>订单编号:200135226</text>
+      <text>配送中</text>
+      <view></view>
+    </view>
+    <view class="goodsInfo">
+      <view>
+        <image src="../img/cartImg1.jpg"></image>
+        <view class="info">
+          <text>GatFit舒适背部挖剪适背部挖剪适背部挖剪适背部挖剪适背部挖剪直筒背心</text>
+        </view>
+      </view>
+      <view>
+        <text>共1件商品合计<text>￥318</text></text>
+      </view>
+    </view>
+  </view>
+  
+  <view>
+    <view class="peisong" id="orderId">
+      <text>订单编号:200135226</text>
+      <text>已完成</text>
+      <view></view>
+    </view>
+    <view class="goodsInfo">
+      <view>
+        <image src="../img/cartImg1.jpg"></image>
+        <view class="info">
+          <text>GatFit舒适背部挖剪适背部挖剪适背部挖剪适背部挖剪适背部挖剪直筒背心</text>
+        </view>
+      </view>
+      <view>
+        <text>共1件商品合计<text>￥318</text></text>
+      </view>
+    </view>
+  </view>
+
+  <view>
+    <view class="peisong" id="orderId">
+      <text>订单编号:200135226</text>
+      <text>待发货</text>
+      <view></view>
+    </view>
+    <view class="goodsInfo">
+      <view>
+        <image src="../img/cartImg1.jpg"></image>
+        <view class="info">
+          <text>GatFit舒适背部挖剪适背部挖剪适背部挖剪适背部挖剪适背部挖剪直筒背心</text>
+        </view>
+      </view>
+      <view>
+        <text>共1件商品合计<text>￥318</text></text>
+      </view>
+    </view>
+  </view>
+  <text>加载更多</text>
+</view>

@@ -1,0 +1,62 @@
+<!--pages/jiesuan/jiesuan.wxml-->
+<!-- 地址 -->
+<view class="address" bindtap="goMyaddress">
+  <view>
+    <text>{{name}}</text>
+    <text>{{tel}}</text>
+  </view>
+  <text>{{address}}</text>
+  <image src="../img/go.jpg"></image>
+</view>
+<!-- 购买商品信息 -->
+<view class="goodsInfo">
+  <view>
+    <image src="../img/cartImg1.jpg"></image>
+    <view class="info">
+      <text>GatFit舒适背部挖剪直筒背心</text>
+      <text>￥129</text>
+      <text>吊牌价：￥129</text>
+    </view>
+    <text class="num">x1</text>
+  </view>
+  <view>
+    <text>共1件商品</text>
+    <text>小计:￥129元</text>
+  </view>
+</view>
+
+<!-- 配送方式 -->
+<view class="peisong">
+  <text>配送方式</text>
+  <text>商家配送</text>
+</view>
+<!-- 满价减 -->
+<view class="peisong ss">
+  <text>满100减38.7</text>
+  <text>已满足</text>
+</view>
+<!-- 积分兑换 -->
+<view class="peisong jifen">
+  <checkbox-group class="checkGrop" bindchange="checkboxChange">
+    <label class="checkbox" wx:for="{{items}}" wx:key="key">
+      <checkbox value="{{item.name}}" checked="{{item.checked}}" style="transform: scale(.7);" />{{item.value}}
+    </label>
+  </checkbox-group>
+  <text>已减价{{price}}元</text>
+</view>
+
+
+<!-- 价格 -->
+<view class="price">
+  <view>
+    <text>总价:</text>
+    <text>￥{{last}}</text>
+  </view>
+  <view>
+    <text>(运费:<text>+￥6</text>优惠金额:<text>-￥38.7</text>)</text>
+  </view>
+</view>
+
+<!-- 按钮 -->
+<button hover-class="hover-class" bindtap="goOrder">确定订单</button>
+<button hover-class="hover-class" bindtap="cancel">取消订单</button>
